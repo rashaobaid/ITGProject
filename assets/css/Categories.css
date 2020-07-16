@@ -1,0 +1,37 @@
+.Categories {
+  height: 500px;
+  background-color: #ffffff; }
+  .Categories h3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 5px;
+    color: #000000;
+    padding-top: 60px; }
+  .Categories h2 {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0;
+    color: #000000;
+    font-style: italic;
+    line-height: 1.07;
+    font-family: Cochin;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .Categories p {
+    font-size: 24px -10;
+    line-height: 32px -16;
+    letter-spacing: 5px -4;
+    color: #000000;
+    font-family: Eina03;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 50px; }
+  .Categories .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .Categories .btn button {
+      border: none;
+      background-color: #edb15d;
+      width: 254px;
+      height: 64px; }

@@ -1,0 +1,25 @@
+$bk-slider:url('../img/best-sellers-bg.png');
+$letter-Spacing:0;
+$line-Height:60px;
+$font-Size:56px;
+$font-color:#ffffff;
+.slider{
+     background:$bk-slider ;
+     background-repeat: no-repeat; 
+     background-size: cover;
+     background-position: center center;
+     height: 944px;
+     h2{
+          font-size:$font-Size ;
+          line-height:$line-Height ;
+          letter-spacing: $letter-Spacing;
+          color:$font-color;
+          padding-top: 110px;
+     }
+     h6{
+          line-height:$line-Height -32;
+          font-size:$font-Size -39 ;
+          color:#f7f8fc;
+          font-family: Eina03;
+     }
+}

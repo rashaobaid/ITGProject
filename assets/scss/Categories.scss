@@ -1,0 +1,50 @@
+$letter-Spacing:5px;
+$line-Height:32px;
+$font-Size:24px;
+$font-color:#000000;
+$font-family: Eina03;
+.Categories{
+    height: 500px;
+    background-color: #ffffff;
+    h3{
+        font-size:$font-Size ;
+        line-height:$line-Height ;
+        letter-spacing: $letter-Spacing;
+        color:$font-color;
+        padding-top: 60px; 
+    }
+    h2{
+        font-size:$font-Size +32 ;
+        line-height:$line-Height +28 ;
+        letter-spacing: 0;
+        color:$font-color;
+        font-style: italic;
+        line-height: 1.07;
+        font-family: Cochin;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size:$font-Size -10;
+        line-height:$line-Height -16;
+        letter-spacing: $letter-Spacing -4;
+        color:$font-color;
+        font-family: $font-family;
+        font-weight: bold;
+        margin-top: 12px;
+        margin-bottom: 50px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       button{
+        border: none;
+        background-color: #edb15d;
+        width: 254px;
+        height: 64px;
+       }
+       
+    }
+    
+}

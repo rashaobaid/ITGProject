@@ -1,0 +1,46 @@
+
+
+$bg-section:url('../img/hero-img.png');
+$bg-div:url('../img/nouba.png');
+$line-Height:28px;
+$font-Size:17px;
+$font-color:#ffffff;
+$min-color:black;
+// section 
+.section{
+     background:$bg-section ;
+     background-repeat: no-repeat; 
+     background-size: cover;
+     background-position: center center;
+     height: 526px;
+     .content{
+        .content-img{
+            width: 369px;
+            height: 152px;
+            background:$bg-div;
+            background-size: cover;
+        }
+        ul {
+            list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            margin: 6px;
+            padding: 2px;
+          li{
+            line-height: $line-Height;
+            font-size: $font-Size;
+            color: $font-color;
+          }
+        }
+        
+        button{
+            width: 270px;
+            height: 64px;
+            color: #edb15d;
+            border:1px solid #edb15d;
+            background-color: $min-color;
+        }
+
+     }
+    
+    }

@@ -1,0 +1,92 @@
+$min-color:black;
+$letter-Spacing:0.2px;
+$line-Height:16px;
+$font-Size:12px;
+$font-color:#ffffff;
+$margin-top:32px;
+$height: 2548px;
+body{
+    background-color: $min-color;
+    
+}
+.header{
+    .header-top {
+        background-color: $min-color;
+        .header-info{
+            ul {
+                list-style-type: none;
+                display: inline-block;
+                text-align: center;
+                margin: 6px;
+                padding: 2px;
+            }
+            ul li{
+                letter-spacing: $letter-Spacing;
+                line-height: $line-Height;
+                font-size: $font-Size;
+				color: $font-color;
+				a img{
+					margin-top: $margin-top;
+					
+                }
+                
+                
+            }
+		}
+        .log{
+            img{
+                margin-top: $margin-top * 1.4375;
+            }
+        }
+    }
+}
+
+
+.header-area{
+    border-bottom: 1px solid #d6ac76;
+    
+   .navbar-nav{
+       margin-bottom: 3px;
+       .nav-item{
+           .nav-link{
+                letter-spacing: $letter-Spacing *7;
+                line-height: $line-Height;
+                font-size: $font-Size +1;
+                color: $font-color;
+                 
+           }
+       }
+   }
+   .input-wrapper{
+    position: relative;
+    margin-right:0px ;
+    input{
+        padding-left: 25px;
+        border: none;
+        background-color: $min-color;
+        border-bottom: 1px solid white;
+        padding-right: 50px;
+        
+      }
+      img{
+        position: absolute;
+        left: 3px;
+        top: calc(50% - 0.5em); 
+      }
+
+  }
+}
+
+// section 
+.section{
+    // background-image: url('assets/img/hero-img.png');
+    //  background-repeat: no-repeat; 
+    //  background-size: cover; 
+    //  background-position: center center;
+    height: 526px;
+    
+}
+
+
+  
+  
