@@ -9,9 +9,50 @@
     line-height: 60px;
     letter-spacing: 0;
     color: #ffffff;
-    padding-top: 110px; }
+    margin-top: 100px; }
   .slider h6 {
-    line-height: 60px -32;
-    font-size: 56px -39;
+    line-height: 28px;
+    font-size: 17px;
     color: #f7f8fc;
     font-family: Eina03; }
+  .slider .Slickslider {
+    height: 450px;
+    width: 100%;
+    margin-top: 100px; }
+    .slider .Slickslider .item .card {
+      height: 445px;
+      width: 260px !important;
+      background-color: #ffffff;
+      display: inline-block;
+      position: relative; }
+      .slider .Slickslider .item .card span {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        border-radius: 50%;
+        border: 1px solid black;
+        margin-left: 79px;
+        margin-top: 3px; }
+      .slider .Slickslider .item .card .card-copy {
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 15px; }
+      .slider .Slickslider .item .card .card-body .card-title {
+        margin-bottom: 50px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #000000;
+        line-height: 1.5px;
+        letter-spacing: 0.3px; }
+      .slider .Slickslider .item .card .card-body .card-text {
+        font-size: 12px;
+        color: #000000;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        margin-bottom: 30px; }
+      .slider .Slickslider .item .card .card-body .card-text2 {
+        font-size: 14px;
+        color: #000000;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 0.5px; }

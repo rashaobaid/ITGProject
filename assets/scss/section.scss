@@ -44,3 +44,9 @@ $min-color:black;
      }
     
     }
+
+    @media(max-width:767px){
+      .header-info .info2{
+          margin-top: -100px
+      }
+    }

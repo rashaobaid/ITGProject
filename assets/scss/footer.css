@@ -2,3 +2,41 @@
   height: 248px;
   background-color: #000000;
 }
+
+.footer .sit-info h2 {
+  color: #ffffff;
+  width: 118px;
+  height: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer .sit-info ul li {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer .contact h6 {
+  font-size: 17px;
+  line-height: 28px;
+  color: #edb15d;
+  font-family: Eina03;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.footer .contact p {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.5;
+  color: #ffffff;
+  font-family: Eina03;
+}
+
+.footer .copyright ul li {
+  display: inline-block;
+  margin-left: 10px;
+}

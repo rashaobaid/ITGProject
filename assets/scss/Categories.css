@@ -1,14 +1,33 @@
 .Categories {
-  height: 500px;
   background-color: #ffffff;
 }
 
-.Categories h3 {
+.Categories .flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  align-items: center;
+}
+
+.Categories .flex .left {
+  border-bottom: 1px solid black;
+  height: 1px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.Categories .flex .right {
+  border-bottom: 1px solid black;
+  height: 1px;
+  width: 45px;
+  margin-left: 10px;
+}
+
+.Categories .flex h3 {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 5px;
   color: #000000;
-  padding-top: 60px;
 }
 
 .Categories h2 {
@@ -45,4 +64,5 @@
   background-color: #edb15d;
   width: 254px;
   height: 64px;
+  margin-bottom: 30px;
 }

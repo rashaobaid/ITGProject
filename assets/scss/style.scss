@@ -5,11 +5,17 @@ $font-Size:12px;
 $font-color:#ffffff;
 $margin-top:32px;
 $height: 2548px;
+// @font-face{
+//     font-family: "GascogneSerialRegular";
+//     src : url("../fonts/GascogneSerial-Regular.woff")
+// }
 body{
     background-color: $min-color;
-    
+    // font-family: 'GascogneSerialRegular'
 }
+
 .header{
+    display: flex;
     .header-top {
         background-color: $min-color;
         .header-info{
@@ -24,13 +30,10 @@ body{
                 letter-spacing: $letter-Spacing;
                 line-height: $line-Height;
                 font-size: $font-Size;
-				color: $font-color;
+                color: $font-color;
 				a img{
 					margin-top: $margin-top;
-					
                 }
-                
-                
             }
 		}
         .log{
@@ -41,10 +44,8 @@ body{
     }
 }
 
-
 .header-area{
     border-bottom: 1px solid #d6ac76;
-    
    .navbar-nav{
        margin-bottom: 3px;
        .nav-item{
@@ -53,10 +54,25 @@ body{
                 line-height: $line-Height;
                 font-size: $font-Size +1;
                 color: $font-color;
-                 
+                 margin-right: 10px;
            }
        }
    }
+   .navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: $font-color;
+    border:none;
+    margin-left: 20px;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+    
+}
    .input-wrapper{
     position: relative;
     margin-right:0px ;
@@ -66,27 +82,24 @@ body{
         background-color: $min-color;
         border-bottom: 1px solid white;
         padding-right: 50px;
-        
       }
       img{
         position: absolute;
-        left: 3px;
-        top: calc(50% - 0.5em); 
+        margin-top: 4px;
       }
-
   }
 }
 
-// section 
-.section{
-    // background-image: url('assets/img/hero-img.png');
-    //  background-repeat: no-repeat; 
-    //  background-size: cover; 
-    //  background-position: center center;
-    height: 526px;
-    
+@media(max-width:576px){
+  .header-info .info2{
+      margin-top: -100px
+  }
 }
 
+@media(max-width:1199px){
+    .header-area .navbar-nav .nav-item .nav-link{
+        font-size: 10px;
+        
+    }
+}
 
-  
-  

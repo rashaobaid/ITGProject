@@ -34,3 +34,9 @@
   border: 1px solid #edb15d;
   background-color: black;
 }
+
+@media (max-width: 767px) {
+  .header-info .info2 {
+    margin-top: -100px;
+  }
+}

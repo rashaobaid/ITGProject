@@ -3,16 +3,34 @@ $line-Height:32px;
 $font-Size:24px;
 $font-color:#000000;
 $font-family: Eina03;
+
 .Categories{
-    height: 500px;
     background-color: #ffffff;
-    h3{
-        font-size:$font-Size ;
-        line-height:$line-Height ;
-        letter-spacing: $letter-Spacing;
-        color:$font-color;
-        padding-top: 60px; 
+    .flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+        align-items: center;
+        .left{
+            border-bottom: 1px solid black;
+            height: 1px;width: 45px;
+            margin-right: 10px;
+        }
+        .right{
+            border-bottom: 1px solid black;
+            height: 1px;width: 45px;
+            margin-left: 10px;
+        }
+        h3{
+            font-size:$font-Size ;
+            line-height:$line-Height ;
+            letter-spacing: $letter-Spacing;
+            color:$font-color;
+            
+        }
     }
+    
+    
     h2{
         font-size:$font-Size +32 ;
         line-height:$line-Height +28 ;
@@ -37,12 +55,13 @@ $font-family: Eina03;
     .btn{
         display: flex;
         justify-content: center;
-       align-items: center;
+        align-items: center;
        button{
         border: none;
         background-color: #edb15d;
         width: 254px;
         height: 64px;
+        margin-bottom: 30px;
        }
        
     }

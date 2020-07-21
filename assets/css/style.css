@@ -1,23 +1,25 @@
 body {
   background-color: black; }
 
-.header .header-top {
-  background-color: black; }
-  .header .header-top .header-info ul {
-    list-style-type: none;
-    display: inline-block;
-    text-align: center;
-    margin: 6px;
-    padding: 2px; }
-  .header .header-top .header-info ul li {
-    letter-spacing: 0.2px;
-    line-height: 16px;
-    font-size: 12px;
-    color: #ffffff; }
-    .header .header-top .header-info ul li a img {
-      margin-top: 32px; }
-  .header .header-top .log img {
-    margin-top: 46px; }
+.header {
+  display: flex; }
+  .header .header-top {
+    background-color: black; }
+    .header .header-top .header-info ul {
+      list-style-type: none;
+      display: inline-block;
+      text-align: center;
+      margin: 6px;
+      padding: 2px; }
+    .header .header-top .header-info ul li {
+      letter-spacing: 0.2px;
+      line-height: 16px;
+      font-size: 12px;
+      color: #ffffff; }
+      .header .header-top .header-info ul li a img {
+        margin-top: 32px; }
+    .header .header-top .log img {
+      margin-top: 46px; }
 
 .header-area {
   border-bottom: 1px solid #d6ac76; }
@@ -27,7 +29,20 @@ body {
       letter-spacing: 1.4px;
       line-height: 16px;
       font-size: 13px;
-      color: #ffffff; }
+      color: #ffffff;
+      margin-right: 10px; }
+  .header-area .navbar-toggler {
+    width: 47px;
+    height: 34px;
+    background-color: #ffffff;
+    border: none;
+    margin-left: 20px; }
+  .header-area .navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px; }
   .header-area .input-wrapper {
     position: relative;
     margin-right: 0px; }
@@ -39,8 +54,12 @@ body {
       padding-right: 50px; }
     .header-area .input-wrapper img {
       position: absolute;
-      left: 3px;
-      top: calc(50% - 0.5em); }
+      margin-top: 4px; }
 
-.section {
-  height: 526px; }
+@media (max-width: 576px) {
+  .header-info .info2 {
+    margin-top: -100px; } }
+
+@media (max-width: 1199px) {
+  .header-area .navbar-nav .nav-item .nav-link {
+    font-size: 10px; } }

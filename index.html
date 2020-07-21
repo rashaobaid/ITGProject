@@ -1,155 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Web Starter Pack</title>
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
+  <meta charset="UTF-8">
+  <title>Web Starter Pack</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/section.css">
   <link rel="stylesheet" href="assets/css/slider.css">
   <link rel="stylesheet" href="assets/css/Categories.css">
   <link rel="stylesheet" href="assets/css/footer.css">
+  <!--slick css-->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 </head>
+
 <body>
-	<div class="header">
-        <div class="container">
-            <div class="header-top">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 text-left">
-                        <div class="header-info ">
-                                <ul>
-                                    <li><a href="#"><img  src="assets/img/makeup-artists.png" alt=""></a></li>
-                                    <li>Makeup Artists</li>
-                                </ul>
-                                 <ul>
-                                    <li><a href="#"><img src="assets/img/phone.png" alt=""></a></li>
-                                    <li>call Us</li>
-                                </ul>
-                        </div>
-                    </div>
-                    <div class=" col-lg-4 col-md-4 col-sm-4 text-center">
-                        <div class="log "><a href="#"><img src="assets/img/logo.png" alt=""></a></div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 text-right">
-                        <div class="header-info">
-                            <ul>
-                                <li><a href="#"><img src="assets/img/cart.png" alt=""></a></li>
-                                <li>Cart</li>
-                            </ul>
-                            <ul>
-                                <li><a href="#"><img src="assets/img/account.png" alt=""></a></li>
-                                <li>Hi,Maysa</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+  <div class="header">
+    <div class="container">
+      <div class="header-top">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 text-left d-sm-inline-block">
+            <div class="header-info ">
+              <ul>
+                <li><a href="#"><img src="assets/img/makeup-artists.png" alt=""></a></li>
+                <li>Makeup Artists</li>
+              </ul>
+              <ul>
+                <li><a href="#"><img src="assets/img/phone.png" alt=""></a></li>
+                <li>call Us</li>
+              </ul>
             </div>
+          </div>
+          <div class=" col-lg-4 col-md-4 col-sm-4 text-center d-lg-block d-md-block d-sm-none d-none ">
+            <div class="log "><a href="#"><img src="assets/img/logo.png" alt=""></a></div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 text-right ">
+            <div class="header-info ">
+              <div class="info2">
+                <ul>
+                  <li><a href="#"><img src="assets/img/cart.png" alt=""></a></li>
+                  <li>Cart</li>
+                </ul>
+                <ul>
+                  <li><a href="#"><img src="assets/img/account.png" alt=""></a></li>
+                  <li>Hi,Maysa</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
   </div>
   <!-- naver bar -->
   <div class="header-area ">
-     <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">PRODUCTS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ONLINE CATALOGUES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FIND OUR STORES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">NEW PRODUCTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT US</a>
-                  </li>
-              </ul>
-            <div class="input-wrapper">
-              <input id="stuff" type="search" placeholder="Search for product,brand,..etc">
-              <img   src="assets/img/search.png"  for="stuff" >
-         </div>
-      </div>
+        <div style="display: flex;justify-content: space-between;width:100%">
+          <div style="display: flex; flex-direction:column">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="line"></span> 
+              <span class="line"></span> 
+              <span class="line"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ONLINE CATALOGUES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FIND OUR STORES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NEW PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="input-wrapper">
+            <div style="display:flex">
+                <input id="stuff" type="search" placeholder="Search for product,brand,..etc">
+                <img src="assets/img/search.png" for="stuff">
+            </div>
+          </div>
+        </div>
     </nav>
   </div>
   <!-- End nave bar -->
 
-<!-- Sectioc  -->
-<div class="section">
-  <div class="container">
-    <div class="row">
-      <div class="content col-lg-7 col-md-6 align-items-center text-center text-md-left text-sm-left mt-xl-5 mb-5 offset-lg-1">
-        <div class="content-img mt-sm-5"></div>
-        <ul>
-          <li>Discover hte new gold 2019 collection from NOUBA</li>
-          <li>10% Off Your First Order</li>
-        </ul>
-        <button class="offset-lg-1 offset-md-1 " type="button" >DISCOVR CATALOGES</button>
+  <!-- Sectioc  -->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div
+          class="content col-lg-7 col-md-6 align-items-center text-center text-md-left text-sm-left mt-xl-5 mb-5 offset-lg-1">
+          <div class="content-img mt-sm-5"></div>
+          <ul>
+            <li>Discover hte new gold 2019 collection from NOUBA</li>
+            <li>10% Off Your First Order</li>
+          </ul>
+          <button class="offset-lg-1 offset-md-1 " type="button">DISCOVR CATALOGES</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- End section -->
 
-<!-- End section -->
-
-<!-- Start slider -->
-<div class="slider">
-  <div class="container ">
-   <h2>Best Selling</h2>
-   <h6>Browse our best selling items</h6>
-  </div>
-</div>
-
-<!-- Start Categories -->
-<div class="Categories">
-  <div class="container text-center">
-    <h3>BROWSE BY</h3>
-    <h2>Categories</h2>
-    <div class="row pb-col-sm-0">
-      <div class="col-lg-2 col-md-4 col-sm-4 ">
-        <img src="assets/img/hair-products.png" alt="">
-        <p> Hair Products</p>
+  <!-- Start slider -->
+  <div class="slider">
+    <div class="container ">
+      <div class="row">
+          <h2>Best Selling</h2>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 ">
-        <img src="assets/img/face.png" alt="">
-        <p>FACE</p>
+      <div class="row">
+          <h6>Browse our best selling items</h6>
       </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 ">
-        <img src="assets/img/eyes.png" alt="">
-        <p>EYES</p>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 ">
-        <img src="assets/img/lips-nails.png" alt="">
-        <p> LIPS & NAILS</p>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 ">
-        <img src="assets/img/skin-care.png" alt="">
-        <p> SKIN CARE</p>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 ">
-        <img src="assets/img/for-men.png" alt="">
-        <p> For Men</p>
+      <div class="row">
+        <div id="productSlider" class="Slickslider text-center">
+          
+           </div>
       </div>
     </div>
-    <div class="btn" >
-      <button type="button" >ALL CATEGORIES <img src="assets/img/all.png"></button>
+  </div>
+
+  <!-- Start Categories -->
+  <div class="Categories">
+    <div class="container text-center">
+      <div class="flex">
+        <div class="left"></div>
+        <h3>BROWSE BY</h3>
+        <div class="right"></div>
+      </div>
+      <h2>Categories</h2>
+      <div class="row pb-col-sm-0">
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <img src="assets/img/hair-products.png" alt="">
+          <p> Hair Products</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <img src="assets/img/face.png" alt="">
+          <p>FACE</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <img src="assets/img/eyes.png" alt="">
+          <p>EYES</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <img src="assets/img/lips-nails.png" alt="">
+          <p> LIPS & NAILS</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <img src="assets/img/skin-care.png" alt="">
+          <p> SKIN CARE</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 ">
+          <img src="assets/img/for-men.png" alt="">
+          <p> For Men</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btn col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <button type="button">ALL CATEGORIES <img src="assets/img/all.png"></button>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="footer"></div>
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/main.js"></script>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="sit-info">
+            <h2>POLSKA</h2>
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li>PRODUCTS</li>
+                  <li>ONLINE CATALOGUES</li>
+                  <li>NEW PRODUCTS</li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li>FIND OUR STORES</li>
+                  <li>ABOUT US</li>
+                  <li>CONTACT US</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-2 offset-6 ">
+          <div class="contact">
+            <h6>+972 59-237-0033</h6>
+            <P>FOLLOW US</P>
+          </div>
+        </div>
+      </div>
+      <div class="copyright row ">
+        <div class="col-lg-4 col-sm-12 ">
+          <p>@ 2020 Polska Cosmetics</p>
+        </div>
+        <div class="col-lg-4 text-center col-sm-12 ">
+          <p>Privacy * Terms</p>
+        </div>
+        <div class=" col-lg-4 col-md-4  text-right col-sm-12">
+          <ul class="list-unstyled">
+            <li><img src="assets/img/facebook.png" alt=""></li>
+            <li><img src="assets/img/twitter.png" alt=""></li>
+            <li> <img src="assets/img/pinterest.png" alt=""></li>
+            <li><img src="assets/img/instagram.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="slick/slick.js"></script>
+  <script src="assets/js/slickmain.js"></script>
 </body>
+
 </html>

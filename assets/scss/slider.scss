@@ -14,12 +14,67 @@ $font-color:#ffffff;
           line-height:$line-Height ;
           letter-spacing: $letter-Spacing;
           color:$font-color;
-          padding-top: 110px;
+          margin-top: 100px;
      }
      h6{
-          line-height:$line-Height -32;
-          font-size:$font-Size -39 ;
+          line-height:$line-Height + -32px;
+          font-size:$font-Size + -39px ;
           color:#f7f8fc;
           font-family: Eina03;
+     }
+     .Slickslider{
+          height: 450px;
+          width: 100%;
+          margin-top: 100px;
+          .item{
+               .card{
+                    height: 445px;
+                    width: 260px !important;
+                    background-color: #ffffff;
+                    display: inline-block;
+                    position: relative;
+                    span{
+                         width: 40px;
+                         height: 40px;
+                         position: absolute;
+                         border-radius: 50%;
+                         border: 1px solid black;
+                         margin-left: 79px;
+                         margin-top: 3px;
+                    }
+                    .card-copy{
+                         position: absolute;
+                          margin-left: 220px;
+                         margin-top: 15px;
+                    }
+                    
+                    .card-body{
+                         .card-title{
+                              margin-bottom: 50px;
+                              font-size: $font-Size + -40px;
+                              font-weight: 600;
+                              color: #000000;
+                              line-height: $line-Height + -58.5px;
+                              letter-spacing:$letter-Spacing + 0.3px;
+                         }
+                         .card-text{
+                                   font-size: $font-Size + -44px;
+                                   color: #000000;
+                                   line-height: $line-Height + -36px;
+                                   letter-spacing:$letter-Spacing + 0.4px;
+                                   margin-bottom: 30px;
+                          }
+                         .card-text2{
+                              font-size: $font-Size + -42px;
+                              color: #000000;
+                              font-weight: bold;
+                              line-height: $line-Height + -44px;
+                              letter-spacing:$letter-Spacing + 0.5px;
+                              
+                         }
+                    }
+               }
+               
+          }
      }
 }

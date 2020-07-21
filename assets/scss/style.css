@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.header {
+  display: flex;
+}
+
 .header .header-top {
   background-color: black;
 }
@@ -42,6 +46,23 @@ body {
   line-height: 16px;
   font-size: 13px;
   color: #ffffff;
+  margin-right: 10px;
+}
+
+.header-area .navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #ffffff;
+  border: none;
+  margin-left: 20px;
+}
+
+.header-area .navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 5px;
 }
 
 .header-area .input-wrapper {
@@ -59,10 +80,17 @@ body {
 
 .header-area .input-wrapper img {
   position: absolute;
-  left: 3px;
-  top: calc(50% - 0.5em);
+  margin-top: 4px;
 }
 
-.section {
-  height: 526px;
+@media (max-width: 576px) {
+  .header-info .info2 {
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header-area .navbar-nav .nav-item .nav-link {
+    font-size: 10px;
+  }
 }
