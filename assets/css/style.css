@@ -13,15 +13,18 @@ body {
         display: inline;
         margin: 0px;
         padding: 0px; }
-        .header .header-top .header-info ul li a img {
-          margin-top: 32px; }
-        .header .header-top .header-info ul li a span {
-          letter-spacing: 0.2px;
-          line-height: 16px;
-          font-size: 12px;
-          color: #ffffff;
+        .header .header-top .header-info ul li a {
           text-decoration: none;
-          padding-top: 68px; }
+          margin-right: 56px; }
+          .header .header-top .header-info ul li a img {
+            margin-top: 32px; }
+          .header .header-top .header-info ul li a span {
+            letter-spacing: 0.2px;
+            line-height: 16px;
+            font-size: 12px;
+            color: #ffffff;
+            position: absolute;
+            margin-top: 68px !important; }
     .header .header-top .log img {
       margin-top: 32px; }
 
@@ -34,7 +37,7 @@ body {
       line-height: 16px;
       font-size: 13px;
       color: #ffffff;
-      margin-right: 10px; }
+      margin-right: 14px; }
   .header-area .navbar-toggler {
     width: 47px;
     height: 34px;
