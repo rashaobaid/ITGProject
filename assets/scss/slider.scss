@@ -22,14 +22,16 @@ $font-color:#ffffff;
           color:#f7f8fc;
           font-family: Eina03;
      }
+     
      .Slickslider{
           height: 450px;
           width: 100%;
           margin-top: 100px;
+
           .item{
                .card{
                     height: 445px;
-                    width: 260px !important;
+                    width: 260px ;
                     background-color: #ffffff;
                     display: inline-block;
                     position: relative;

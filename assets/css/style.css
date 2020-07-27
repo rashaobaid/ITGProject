@@ -2,24 +2,28 @@ body {
   background-color: black; }
 
 .header {
-  display: flex; }
+  height: 83.5px; }
   .header .header-top {
     background-color: black; }
     .header .header-top .header-info ul {
       list-style-type: none;
-      display: inline-block;
-      text-align: center;
-      margin: 6px;
-      padding: 2px; }
-    .header .header-top .header-info ul li {
-      letter-spacing: 0.2px;
-      line-height: 16px;
-      font-size: 12px;
-      color: #ffffff; }
-      .header .header-top .header-info ul li a img {
-        margin-top: 32px; }
+      display: inline;
+      text-align: center; }
+      .header .header-top .header-info ul li {
+        display: inline;
+        margin: 0px;
+        padding: 0px; }
+        .header .header-top .header-info ul li a img {
+          margin-top: 32px; }
+        .header .header-top .header-info ul li a span {
+          letter-spacing: 0.2px;
+          line-height: 16px;
+          font-size: 12px;
+          color: #ffffff;
+          text-decoration: none;
+          padding-top: 68px; }
     .header .header-top .log img {
-      margin-top: 46px; }
+      margin-top: 32px; }
 
 .header-area {
   border-bottom: 1px solid #d6ac76; }

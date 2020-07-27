@@ -15,30 +15,38 @@ body{
 }
 
 .header{
-    display: flex;
+    height: 83.5px;
     .header-top {
         background-color: $min-color;
+       
         .header-info{
             ul {
                 list-style-type: none;
-                display: inline-block;
+                display: inline;
                 text-align: center;
-                margin: 6px;
-                padding: 2px;
-            }
-            ul li{
-                letter-spacing: $letter-Spacing;
-                line-height: $line-Height;
-                font-size: $font-Size;
-                color: $font-color;
-				a img{
-					margin-top: $margin-top;
+            li{ 
+                display: inline;
+                margin: 0px;
+                padding: 0px;
+             a{
+				img{
+                    margin-top: 32px;
                 }
+                span{
+                    letter-spacing: $letter-Spacing;
+                    line-height: $line-Height;
+                    font-size: $font-Size;
+                    color: $font-color;
+                    text-decoration: none;
+                    padding-top: 68px;
+                }
+              }
             }
+          }
 		}
         .log{
             img{
-                margin-top: $margin-top * 1.4375;
+                margin-top:32px;
             }
         }
     }
@@ -46,6 +54,7 @@ body{
 
 .header-area{
     border-bottom: 1px solid #d6ac76;
+    // height: 83.5px;
    .navbar-nav{
        margin-bottom: 3px;
        .nav-item{

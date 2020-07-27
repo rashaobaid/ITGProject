@@ -29,7 +29,7 @@
 
 .slider .Slickslider .item .card {
   height: 445px;
-  width: 260px !important;
+  width: 260px;
   background-color: #ffffff;
   display: inline-block;
   position: relative;
