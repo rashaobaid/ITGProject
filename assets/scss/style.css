@@ -3,7 +3,8 @@ body {
 }
 
 .header {
-  height: 83.5px;
+  height: 84px;
+  background-color: black;
 }
 
 .header .header-top {
@@ -41,11 +42,13 @@ body {
 }
 
 .header .header-top .log img {
-  margin-top: 32px;
+  margin-top: 49px;
 }
 
 .header-area {
+  background-color: black;
   border-bottom: 1px solid #d6ac76;
+  height: 84px;
 }
 
 .header-area .navbar-nav {
@@ -58,6 +61,8 @@ body {
   font-size: 13px;
   color: #ffffff;
   margin-right: 14px;
+  margin-top: 24px;
+  margin-bottom: 2px;
 }
 
 .header-area .navbar-toggler {
@@ -77,8 +82,10 @@ body {
 }
 
 .header-area .input-wrapper {
+  margin-top: 24px;
   position: relative;
   margin-right: 0px;
+  margin-bottom: -1px;
 }
 
 .header-area .input-wrapper input {
@@ -87,6 +94,7 @@ body {
   background-color: black;
   border-bottom: 1px solid white;
   padding-right: 50px;
+  padding-bottom: 2px;
 }
 
 .header-area .input-wrapper img {

@@ -2,7 +2,8 @@ body {
   background-color: black; }
 
 .header {
-  height: 83.5px; }
+  height: 84px;
+  background-color: black; }
   .header .header-top {
     background-color: black; }
     .header .header-top .header-info ul {
@@ -26,10 +27,12 @@ body {
             position: absolute;
             margin-top: 68px !important; }
     .header .header-top .log img {
-      margin-top: 32px; }
+      margin-top: 49px; }
 
 .header-area {
-  border-bottom: 1px solid #d6ac76; }
+  background-color: black;
+  border-bottom: 1px solid #d6ac76;
+  height: 84px; }
   .header-area .navbar-nav {
     margin-bottom: 3px; }
     .header-area .navbar-nav .nav-item .nav-link {
@@ -37,7 +40,9 @@ body {
       line-height: 16px;
       font-size: 13px;
       color: #ffffff;
-      margin-right: 14px; }
+      margin-right: 14px;
+      margin-top: 24px;
+      margin-bottom: 2px; }
   .header-area .navbar-toggler {
     width: 47px;
     height: 34px;
@@ -51,14 +56,17 @@ body {
     background-color: black;
     margin-bottom: 5px; }
   .header-area .input-wrapper {
+    margin-top: 24px;
     position: relative;
-    margin-right: 0px; }
+    margin-right: 0px;
+    margin-bottom: -1px; }
     .header-area .input-wrapper input {
       padding-left: 25px;
       border: none;
       background-color: black;
       border-bottom: 1px solid white;
-      padding-right: 50px; }
+      padding-right: 50px;
+      padding-bottom: 2px; }
     .header-area .input-wrapper img {
       position: absolute;
       margin-top: 4px; }

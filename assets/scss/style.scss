@@ -15,7 +15,8 @@ body{
 }
 
 .header{
-    height: 83.5px;
+    height: 84px;
+    background-color: $min-color;
     .header-top {
         background-color: $min-color;
         .header-info{
@@ -47,15 +48,16 @@ body{
 		}
         .log{
             img{
-                margin-top:32px;
+                margin-top:49px;
             }
         }
     }
 }
 
 .header-area{
+    background-color: $min-color;
     border-bottom: 1px solid #d6ac76;
-    // height: 83.5px;
+    height: 84px;
    .navbar-nav{
        margin-bottom: 3px;
        .nav-item{
@@ -65,6 +67,9 @@ body{
                 font-size: $font-Size +1;
                 color: $font-color;
                  margin-right: 14px;
+                 margin-top: 24px;
+                 margin-bottom: 2px;
+                 
            }
        }
    }
@@ -84,14 +89,17 @@ body{
     
 }
    .input-wrapper{
+    margin-top: 24px;
     position: relative;
     margin-right:0px ;
+    margin-bottom: -1px;
     input{
         padding-left: 25px;
         border: none;
         background-color: $min-color;
         border-bottom: 1px solid white;
         padding-right: 50px;
+        padding-bottom: 2px;
       }
       img{
         position: absolute;
