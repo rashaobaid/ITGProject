@@ -69,25 +69,13 @@ body{
                  margin-right: 14px;
                  margin-top: 24px;
                  margin-bottom: 2px;
-                 
+                 &:first-child {
+                    padding-left: 5px;
+                 }
            }
        }
    }
-   .navbar-toggler{
-    width: 47px;
-    height: 34px;
-    background-color: $font-color;
-    border:none;
-    margin-left: 20px;
-}
-.navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: black;
-    margin-bottom: 5px;
-    
-}
+   
    .input-wrapper{
     margin-top: 24px;
     position: relative;
@@ -101,18 +89,14 @@ body{
         padding-right: 50px;
         padding-bottom: 2px;
       }
-      img{
+      img{      
         position: absolute;
         margin-top: 4px;
       }
   }
 }
 
-@media(max-width:576px){
-  .header-info .info2{
-      margin-top: -100px
-  }
-}
+
 
 @media(max-width:1199px){
     .header-area .navbar-nav .nav-item .nav-link{

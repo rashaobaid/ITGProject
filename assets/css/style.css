@@ -43,18 +43,8 @@ body {
       margin-right: 14px;
       margin-top: 24px;
       margin-bottom: 2px; }
-  .header-area .navbar-toggler {
-    width: 47px;
-    height: 34px;
-    background-color: #ffffff;
-    border: none;
-    margin-left: 20px; }
-  .header-area .navbar-toggler .line {
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: black;
-    margin-bottom: 5px; }
+      .header-area .navbar-nav .nav-item .nav-link:first-child {
+        padding-left: 5px; }
   .header-area .input-wrapper {
     margin-top: 24px;
     position: relative;
@@ -70,10 +60,6 @@ body {
     .header-area .input-wrapper img {
       position: absolute;
       margin-top: 4px; }
-
-@media (max-width: 576px) {
-  .header-info .info2 {
-    margin-top: -100px; } }
 
 @media (max-width: 1199px) {
   .header-area .navbar-nav .nav-item .nav-link {
